@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookList</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="first-container">
+        
+        <form action="" id="form-input">
+            <label class="label-class" for="book-name">Name: </label>
+            <br>
+            <input class="text-input" id="name" type="text" name="book-name"></input>
+            <br>
+            <label class="label-class" for="Author-name">Author: </label>
+            <br>
+            <input class="text-input" id="author" type="text" name="Author-name"></input>
+            <br>
+            <label class="label-class" for="ISBNF-code">ISBN: </label>
+            <br>
+            <input class="text-input" id="isbn" type="text" name="ISBNF-code"></input>
+            <br>
+            <button type="submit" id="btn-submit" name="submit">Submit</button>
+        </form>
+
+        <hr>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Author</th>
+                    <th>ISBN</th>
+                    <th>Remove</th>
+                </tr>
+
+            </thead>
+            <tbody id="book-list">
+
+            </tbody>
+        </table>
+        </table>
+    </div>
+ 
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
