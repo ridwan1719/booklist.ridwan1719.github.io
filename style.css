@@ -1,0 +1,46 @@
+#first-container{
+    padding: 5vh 20vw;
+}
+
+.text-input{
+    height: 5vh;
+    width: 80%;
+    border: .5px solid #2d2c2c2d;
+    border-radius: 2%;
+    margin: 2vh 0vw;
+}
+
+.label-class{
+    font-size: 3.2vh;
+}
+
+#btn-submit{
+    height: 7vh;
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 2vh; 
+    margin-bottom: 3vh;
+    border: none;
+    background-color: lightseagreen;
+    color: white;
+}
+
+table{
+    width: 100%;
+}
+
+
+.sucess, .notEntered {
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-color: rgb(0, 82, 0);
+    color: white;
+    padding: 1vh;
+}
+
+.notEntered {
+    background-color: rgb(180, 41, 41);
+}
